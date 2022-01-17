@@ -26,7 +26,7 @@ int gcd(int x,int y)
 int main()
 {
     int a,b;
-    printf("Enter two numbers of which you find GCD:\n");
+    printf("Enter two numbers of which you wan to find the GCD:\n");
     scanf("%d%d",&a,&b);
     
     int hcf;
