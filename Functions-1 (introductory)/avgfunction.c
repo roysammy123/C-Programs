@@ -4,18 +4,19 @@
 #include<stdlib.h>
 #include<conio.h>
 
-int average(int x,int y,int z)
+float average(int x,int y,int z)
 {
-    int avg=(x+y+z)/3;
+    float avg=(x+y+z)/3.0;
     return avg;
 }
 
 int main()
 {
-    int a,b,c,result;
+    int a,b,c;
+    float result;
     printf("Enter three numbers:\n");
     scanf("%d%d%d",&a,&b,&c);
     result=average(a,b,c);
-    printf("The average of the three numbers entered is %d",result);
+    printf("The average of the three numbers entered is %f",result);
     return 0;
 }
